@@ -1,0 +1,12 @@
+.hero{
+    background-image: url('../img/imagen1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (min-width: 768px) {
+    .hero{
+        background-position:  50% 33%;
+    }
+  }
+

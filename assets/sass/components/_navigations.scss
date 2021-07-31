@@ -1,0 +1,43 @@
+.navbar{
+    padding: 0% !important;
+}
+
+.navbar-toggler{
+    padding: 2vw 3vh 2vw 3vh !important;
+
+}
+.navigation{
+
+    &__logo{
+        position: relative;
+        background-color: $smoky-black;
+        padding-left: 1.5vh;
+        padding-right: 1.5vh;
+        padding-top: 3vw;
+        padding-bottom: 3vw;
+        color: $white;
+    }
+
+    &__letter{
+        margin: 0;
+        font-family: $raleway;
+        font-size: $x-large;
+        font-weight: $bold;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .navigation{ 
+        
+        &__ul{
+            font-size: $large;
+            font-weight: $bold;
+            color: $smoky-black !important;
+            padding-left: 28vw;
+        }
+
+        &__ul li{
+            margin-right: 4vw;
+        }
+    }
+  }

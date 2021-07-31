@@ -1,0 +1,11 @@
+.btn-sm{
+    width: 17vw !important;
+    height: 3vh !important;
+}
+
+@media only screen and (min-width: 768px) {
+    .btn-sm{
+        width: 20vw !important;
+        height: 3vh !important;
+    }
+}

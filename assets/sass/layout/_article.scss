@@ -1,0 +1,71 @@
+.article{
+    padding: 8vw 8vh 4vw 8vh;
+    font-family: $raleway;
+
+    &__title{
+        font-size: $xxx-large;
+        color: $smoky-black;
+        font-weight: $bold;
+        letter-spacing: 0.05rem;
+        line-height: 9vw;
+        //margin-bottom: 0.4vw;
+    }
+
+    &__content{
+        font-size: $medium;
+        color: $quick-silver;
+        font-weight: $regular;
+        line-height: 5vw;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+    .article{
+        padding: 1vw 15vh 2vw 7vh;
+        font-family: $raleway;
+    
+        &__title{
+            font-size: $xxx-large;
+            color: $smoky-black;
+            font-weight: $bold;
+            letter-spacing: 0.08rem;
+            margin-bottom: 1vh;
+            line-height: 7vw;
+        }
+    
+        &__content{
+            font-size: $small;
+            color: $quick-silver;
+            font-weight: $regular;
+            line-height: 2vh;
+        }
+    
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+    .article{
+        padding: 1vw 15vh 2vw 7vh;
+        font-family: $raleway;
+    
+        &__title{
+            font-size: $xxx-large;
+            color: $smoky-black;
+            font-weight: $bold;
+            letter-spacing: 0.08rem;
+            margin-bottom: 1vh;
+            line-height: 7vw;
+        }
+    
+        &__content{
+            font-size: $small;
+            color: $quick-silver;
+            font-weight: $regular;
+            line-height: 2vh;
+        }
+    
+    }
+}
